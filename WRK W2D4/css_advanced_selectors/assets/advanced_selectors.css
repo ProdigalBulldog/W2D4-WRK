@@ -43,4 +43,31 @@ ol {
   font-weight: bold;
 }
 
+input[type="radio"], input[type="submit"], select {
+  cursor: pointer;
+  outline: none;
+}
 
+input:last-child {
+  background-color: gold
+}
+
+input[type="submit"]:hover {
+  -webkit-filter: brightness(90%)
+}
+
+.dirlist li:nth-of-type(2n) {
+  background-color: lightgray;
+}
+
+h2 + .user_review {
+  border-top: 1px solid black;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  width: 27px;
+  height: 27px;
+  background-image: url(./stars.png);
+  vertical-align: bottom;
+}
